@@ -78,9 +78,6 @@ for palabras in parrafo:
     rta += nueva
     if centinela == True:
         rta += "0"
-            
-# for llave,valor in v_dicc.items():
-#     print(llave, valor)
 
 i = 0
 while i <= len(rta)-1:
@@ -105,8 +102,9 @@ for i in lista_rta:
         
 for i in range(len(lista_rta)):
     lista_rta[i] = indices[lista_rta[i]]
-    
-print("".join(lista_rta))
+   
+rta = "".join(lista_rta) 
+print(rta)
         
 
     
